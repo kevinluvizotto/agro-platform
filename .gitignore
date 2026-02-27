@@ -1,0 +1,23 @@
+# Kubernetes / Helm / local artifacts
+*.kubeconfig
+kubeconfig
+**/kubeconfig*
+*.pem
+*.key
+*.crt
+
+# Secrets (nunca commitar secrets reais)
+*k8s*secrets*.yaml
+*secret*.yaml
+.env
+.env.*
+appsettings*.json
+
+# Tools / OS
+**/.DS_Store
+**/Thumbs.db
+**/.vscode
+**/.idea
+**/.vs
+**/bin
+**/obj

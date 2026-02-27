@@ -1,0 +1,10 @@
+services:
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: agro-rabbitmq
+    environment:
+      RABBITMQ_DEFAULT_USER: agro
+      RABBITMQ_DEFAULT_PASS: agro
+    ports:
+      - "5672:5672"
+      - "15672:15672"
